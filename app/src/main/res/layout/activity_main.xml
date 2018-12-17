@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+        <Button
+            android:id="@+id/Informe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/contourimage"
+            android:fontFamily="@font/police"
+            android:text="Paladin"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+
+
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1">
+
+            <ImageView
+                android:id="@+id/PaladinAccueil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/paladin" />
+
+            <TextView
+                android:id="@+id/Explication"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/PaladinAccueil"
+                android:layout_alignTop="@id/PaladinAccueil"
+                android:layout_alignRight="@id/PaladinAccueil"
+                android:layout_alignBottom="@id/PaladinAccueil"
+                android:layout_margin="1dp"
+                android:fontFamily="@font/police"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <ProgressBar
+                android:id="@+id/ProgresExplication"
+                style="@style/Widget.AppCompat.ProgressBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/PaladinAccueil"
+                android:layout_alignTop="@id/PaladinAccueil"
+                android:layout_alignRight="@id/PaladinAccueil"
+                android:layout_alignBottom="@id/PaladinAccueil"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="1dp"
+                android:gravity="center" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/CreationPersonnage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/buttonshapecolor"
+            android:fontFamily="@font/police"
+            android:text="Jouer"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/QuitButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+        android:background="@drawable/buttonshapecolor"
+        android:fontFamily="@font/police"
+        android:text="Exit"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+
+</LinearLayout>

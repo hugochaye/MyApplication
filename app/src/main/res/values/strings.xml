@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mon application</string>
+    <string name="title_activity_informer">Informer</string>
+
+    <string name="title_activity_fiche_personnage">FichePersonnage</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_jeu">Jeu</string>
+    <string name="title_activity_jeu2">Jeu2</string>
+</resources>
